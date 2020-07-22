@@ -87,7 +87,12 @@ export default function FriendForm(props) {
         {/* ////////// RADIO BUTTONS ////////// */}
         {/* ////////// RADIO BUTTONS ////////// */}
         <label>Single
-
+          <input
+            type='radio'
+            name='civil'
+            value='single'
+            checked={values.civil === 'single'}
+          />
         </label>
 
         <label>Married
